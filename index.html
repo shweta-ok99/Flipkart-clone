@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipkartClone.project.Assignment</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Overpass:ital,wght@1,200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="Container" id="container">
+        <div class="Header" id="header">
+            <div class="logo"><img src="./flipkart-plus_8d85f4.png" alt="Flipkart" title="Flipkart" width="75">
+                <div><span class="explorePlus">Explore</span><span class="explorePlus"> Plus</span><img
+                        src="./plus sign.png" width="10px">
+                </div>
+            </div>
+            <div class="in"><input class="input" type="text" placeholder="Search for products, brands and more"> </div>
+            <div class="button"><button style="width: 90px; height: 35px;"><span
+                        style="color: #2874f0; font-weight: 700;"><span id="sp">Login </span></span></button></div>
+            <div class="more">
+                <div>More</div>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 172 172"
+                    style="  fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style=" mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M1.10579,49.17373l82.41667,78.83333c1.38574,1.32275 3.56934,1.32275 4.95508,0l82.41667,-78.83333c1.0568,-1.01131 1.39274,-2.56502 0.84684,-3.92277c-0.5424,-1.36125 -1.86165,-2.25008 -3.32438,-2.25008h-14.33333c-0.91683,0 -1.79867,0.34993 -2.46354,0.98332l-65.61979,62.16243l-65.61979,-62.16243c-0.66488,-0.63338 -1.54671,-0.98332 -2.46354,-0.98332h-14.33333c-1.46273,0 -2.78198,0.88883 -3.32438,2.25008c-0.5459,1.35775 -0.20996,2.91146 0.84684,3.92277z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="cart">Cart<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px"
+                    viewBox="0 0 172 172" style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M6.235,6.88c-0.1075,0.02688 -0.215,0.06719 -0.3225,0.1075c-3.34594,0.47031 -5.9125,3.30563 -5.9125,6.7725c0,3.80281 3.07719,6.88 6.88,6.88c3.80281,0 6.88,-3.07719 6.88,-6.88h16.0175c4.28656,0 6.51719,0.88688 8.17,2.365c1.62594,1.46469 2.94281,3.93719 4.085,7.74l27.52,111.0475c1.03469,3.93719 2.06938,7.99531 4.945,11.2875c1.19594,1.37063 2.70094,2.48594 4.515,3.3325c-2.01562,2.39188 -3.3325,5.36156 -3.3325,8.7075c0,7.56531 6.19469,13.76 13.76,13.76c7.56531,0 13.76,-6.19469 13.76,-13.76c0,-2.52625 -0.73906,-4.8375 -1.935,-6.88h21.07c-1.19594,2.0425 -1.935,4.35375 -1.935,6.88c0,7.56531 6.19469,13.76 13.76,13.76c7.56531,0 13.76,-6.19469 13.76,-13.76c0,-3.53406 -1.43781,-6.69187 -3.655,-9.1375c0.38969,-1.04812 0.22844,-2.23062 -0.40312,-3.14437c-0.645,-0.92719 -1.69313,-1.47813 -2.82188,-1.47813h-52.5675c-5.30781,0 -7.47125,-1.12875 -8.9225,-2.795c-1.43781,-1.65281 -2.31125,-4.54187 -3.3325,-8.385v-0.1075l-2.365,-9.3525h63.1025c1.43781,0 2.74125,-0.90031 3.225,-2.2575l24.725,-65.36c0.40313,-1.04812 0.25531,-2.23062 -0.38969,-3.15781c-0.645,-0.92719 -1.70656,-1.47812 -2.83531,-1.46469h-105.6725l-7.31,-29.3475c0,-0.06719 0,-0.14781 0,-0.215c-1.31687,-4.43437 -3.02344,-8.2775 -6.1275,-11.0725c-3.10406,-2.795 -7.47125,-4.085 -12.7925,-4.085h-22.8975c-0.1075,0 -0.215,0 -0.3225,0c-0.1075,0 -0.215,0 -0.3225,0zM57.7275,58.48h99.0075l-22.145,58.48h-62.35zM89.44,151.36c3.84313,0 6.88,3.03688 6.88,6.88c0,3.84313 -3.03687,6.88 -6.88,6.88c-3.84312,0 -6.88,-3.03687 -6.88,-6.88c0,-3.84312 3.03688,-6.88 6.88,-6.88zM134.16,151.36c3.84313,0 6.88,3.03688 6.88,6.88c0,3.84313 -3.03687,6.88 -6.88,6.88c-3.84312,0 -6.88,-3.03687 -6.88,-6.88c0,-3.84312 3.03688,-6.88 6.88,-6.88z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="VarietySec">
+            <div class="var1"><img src="./top offers.webp" width="64px">
+                <div class="topOffers">Top Offers</div>
+            </div>
+            <div class="var1"><img src="./grocery.webp" width="64px" height="64px">
+                <div>Grocery</div>
+            </div>
+            <div class="var1"><img src="./fashion.webp" width="64px">
+                <div>Fashion</div>
+            </div>
+            <div class="var1"><img src="./electronics.webp" width="64px">
+                <div>Electronics</div>
+            </div>
+            <div class="var1"><img src="./home.webp" width="64px">
+                <div>Home</div>
+            </div>
+            <div class="var1"><img src="./appliances.webp" width="64px">
+                <div>Appliances</div>
+            </div>
+            <div class="var1"><img src="./mobiles.webp" width="64px">
+                <div>Mobiles</div>
+            </div>
+            <div class="var1"><img src="./travel.webp" width="64px">
+                <div>Flipkart Travel</div>
+            </div>
+            <div class="var1"><img src="./toys.webp" width="64px">
+                <div>Beauty, Toys ans More</div>
+            </div>
+        </div>
+        <div class="Banner">
+            <img src="./sale diwali.jpg" height="250px" style="padding-left: 20px;">
+        </div>
+        <!-- <div class="BellowBanner">
+            <img src="./laptop.webp" width="1500px" height="250px">
+        </div> -->
+        <div class="DOTD">Deals of the Day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="./flip Clock.svg" width="20px">
+            <span
+                style="color: black; font-size: 11px; color: rgba(128, 128, 128, 0.733); align-items: center;">12:53:13</span>
+        </div>
+        <hr>
+        <div class="DealsOfTheDay">
+
+
+            <div class="im"><img src="./kids wear.webp" width="200px">
+                <div style="padding-top: 8px;">Kids Wear</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+            </div>
+            <div class="im"><img src="./trolley.webp" width="167px">
+                <div>Top selling Accesories</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+            </div>
+            <div class="im"><img src="./watch.webp" width="150px" alt="">
+                <div>Casio, Fastrack,Sonata</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+            </div>
+            <div class="im"><img src="./necklaces.webp" alt="" width="195px">
+                <div>Necklaces,Earings</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+            </div>
+            <div class="im"><img src="./dresses.webp" width="154px" alt="">
+                <div>Dresses and More</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+            </div>
+            <div class="im">
+                <img src="./baby care.webp" width="150px">
+                <div>Baby Care</div>
+                <div style="color: rgb(58, 148, 58); padding-top: 10px;">Min 50% Off</div>
+                <div style="color: gray; padding-top: 10px;">Nick and Jones, Allen Sol...</div>
+
+            </div>
+            <div class="new">
+                <img src="./sale flip.webp" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
